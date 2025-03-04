@@ -20,7 +20,8 @@ public class Ex2_work_scanner2 {
 		int n2 = sc.nextInt();		
 		
 		System.out.println("연산자 : ");
-		String op = sc.next();		   // 스위치문을 이용하여 연산자를 스트링으로 받을 수 있도록 코딩한다.
+		String op = sc.next();		   // 연산자를 스트링으로 받을 수 있도록 switch문을 이용한다.
+		// 스위치문을 이용하여 연산자를 스트링으로 대입하여, 키보드에서 연산자도 문자열로서 입력받을 수 있도록 한다.
 
 
 		int res;

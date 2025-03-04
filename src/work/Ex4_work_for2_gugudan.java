@@ -25,7 +25,7 @@ public class Ex4_work_for2_gugudan {
 			for(int i = 1; i <= 9; i++) { // i의 범위. 1에서 시작, 9에서 끝. i를 1씩 올려서 연산 수행.
 				int res = dan * i;
 			    System.out.println(dan + "x" + i + "=" + res);
-		} // else  if-else문 이용-> else문 안에 for문 작성.
+		} // else. if문을 for문 앞에 띄어서 쓸 것 없이, else 안에 for문을 작성하는 방법도 있다.
 			
 
 		} // for

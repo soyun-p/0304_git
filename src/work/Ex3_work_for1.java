@@ -12,8 +12,8 @@ public class Ex3_work_for1 {
 		int sum =0;  // 전역 변수
 
 		for(int i = 1; i <= 10; i++) {			
-			if( i % 2 == 1 ) {
-				sum += i;
+			if( i % 2 == 1 ) {  // 홀수의 조건 제시
+				sum += i;  // 홀수의 합 계산식
 
 			} // if						
 
@@ -24,7 +24,7 @@ public class Ex3_work_for1 {
 
 
 
-		System.out.println("---------------------");
+		System.out.println();
 
 
 

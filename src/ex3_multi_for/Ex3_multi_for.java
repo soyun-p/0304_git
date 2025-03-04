@@ -13,7 +13,7 @@ public class Ex3_multi_for {
 			
 			for(int j = 1; j <= 6; j++) { // x축(열)으로 몇 칸.
 				
-				System.out.print(i + " ");  
+				System.out.print(i + " ");  // i(1, 2, 3)를 j(6번)의 범위만큼 옆으로 한칸 씩(" ") 띄어서 출력.
 				
 			} // inner
 			
@@ -28,6 +28,9 @@ public class Ex3_multi_for {
 		// 이후 inner for문의 초기식, 조건식이 참이면, inner for문을 j의 범위까지 전부 반복해서 실행한다.
 		// 전부 실행했다면, inner for문을 나온 후 outer for문의 실행문을 실행한다.
 		// 그리고 다시 outer for문의 i에서 +1된 값으로 위와 같은 과정을 한 번 더 거치고, 이를 i의 범위까지 반복한다.
+		
+		System.out.println("---------------------");
+	
 		
 		
 	} // main
