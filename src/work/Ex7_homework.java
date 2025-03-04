@@ -30,9 +30,10 @@ public class Ex7_homework {
 		
 		for(int i = 0; i <= num; i++) {
 			sum = a0 + a1;
-			
+			sum++;
+			sum += i;
 			 
-			System.out.print(a1 + " ");
+			System.out.print(sum + " ");
 			
 					
 			
