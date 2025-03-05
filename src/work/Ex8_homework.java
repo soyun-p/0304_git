@@ -32,6 +32,15 @@ public class Ex8_homework {
 		} else {
 			System.out.println(year + "년은 평년입니다.");
 		}
+		
+		
+		/* 선생님 풀이
+		
+		if(year % 4 == 0 && year != 0 || year % 400 == 0) {
+			System.out.println(year + "윤년입니다.");
+		}else {
+			System.out.println(year + "평년입니다.");
+		}                                                        */
 
 
      } // main

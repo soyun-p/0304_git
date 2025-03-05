@@ -1,38 +1,64 @@
 package ex3_multi_for;
 
 public class Ex3_multi_for {
+
 	public static void main(String[] args) {
-		
-		// 다중 for문 : for문 안에 for문이 있는 경우
-		
-		// 1  1  1  1  1
-		// 2  2  2  2  2
-		// 3  3  3  3  3
-		
-		for(int i = 1; i <= 3; i++) { // y축(행)으로 몇 칸.	
+
+		// *  *  *  *  *
+		// 1  2  3  4  5  
+		// *  *  *  *  *
+		// 1  2  3  4  5
+		// *  *  *  *  *
+
+		for(int i = 0; i < 5; i++) { // int i = 1; i <= 5; i++ 도 가능. 다만 if문 조건식을 i % 2 != 0 으로 바꿔줘야 한다.
 			
-			for(int j = 1; j <= 6; j++) { // x축(열)으로 몇 칸.
+			// i의 시작점이 0인지, 1인지에 따라 if문의 조건식에서도 i가 홀수인지, 짝수인지가 정해진다.
+
+			for(int j = 1; j <= 5; j++) {
+				if( i % 2 == 0) {
+					System.out.print("* ");
+					
+				}else{
+					System.out.print(j + " ");
+				}
+
+
+			} // inner
+			
+			System.out.println();
+
+
+		}// outer
+		
+		
+		
+		System.out.println("-------------------");
+		
+		
+		
+		// A  B  C  D
+		// E  F  G  H
+		// I  J  K  L
+		
+		
+		char ch = 'A';	
+		
+		for(int i = 0; i < 3; i++) {
+			
+			for(int j = 0; j < 4; j++) {
 				
-				System.out.print(i + " ");  // i(1, 2, 3)를 j(6번)의 범위만큼 옆으로 한칸 씩(" ") 띄어서 출력.
+				System.out.print(ch++ + " ");  
+				// ++ch 로 하면 연산이 출력보다 먼저 적용되기 때문에 A부터 나오는 것이 아니라, A가 선행 증가한 B부터 나오게 된다.
+				// 따라서 출력보다 연산이 늦은 ch++(후행 증가)를 사용한다.
+				
 				
 			} // inner
 			
-			// inner for문을 다 수행하고 나면 inner for문을 나와서 줄바꿈을 실행한다. 
-			
-			System.out.println(); // 줄바꿈. 이후 다시 outer for문으로 돌아가서 outer for문의 +1된 i의 값으로 다시 inner for문을 수행한다.
+			System.out.println();
 			
 		} // outer
-		
-		
-		// 먼저 outer for문의 초기식, 조건식을 확인하고 {} 안으로 들어간 후 안에 있는 inner for문의 초기식과 조건식을 확인한다. 
-		// 이후 inner for문의 초기식, 조건식이 참이면, inner for문을 j의 범위까지 전부 반복해서 실행한다.
-		// 전부 실행했다면, inner for문을 나온 후 outer for문의 실행문을 실행한다.
-		// 그리고 다시 outer for문의 i에서 +1된 값으로 위와 같은 과정을 한 번 더 거치고, 이를 i의 범위까지 반복한다.
-		
-		System.out.println("---------------------");
-	
-		
-		
+
+
 	} // main
 
 }
