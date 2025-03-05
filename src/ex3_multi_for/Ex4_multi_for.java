@@ -14,8 +14,8 @@ public class Ex4_multi_for {
 		for(int i = 1; i <= 9; i++) {
 			
 			for(int j = 1; j <= 9; j++) {
-				int res = i * j;				
-				System.out.print(res + " ");
+				int res = i * j;		// 이런 식 없이 출력할 때 (i*j + " ")	로 출력해도 가능.	
+				System.out.print(res + " ");  
 				
 			} // inner
 			
