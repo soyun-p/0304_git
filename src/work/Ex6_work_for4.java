@@ -2,7 +2,7 @@ package work;
 
 import java.util.Scanner;
 
-public class Ex6_work {
+public class Ex6_work_for4 {
 	public static void main(String[] args) {
 		
 		// 수1 : 3

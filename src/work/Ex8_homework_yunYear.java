@@ -2,7 +2,7 @@ package work;
 
 import java.util.Scanner;
 
-public class Ex8_homework {
+public class Ex8_homework_yunYear {
 	public static void main(String[] args) {
 
 		// if문 사용

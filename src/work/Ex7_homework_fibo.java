@@ -2,7 +2,7 @@ package work;
 
 import java.util.Scanner;
 
-public class Ex7_homework {
+public class Ex7_homework_fibo {
 	public static void main(String[] args) {
 		// single for문 사용
 		// 피보나치 수열 만들기
@@ -21,6 +21,7 @@ public class Ex7_homework {
 		
 		// 변수 3개 준비
 		int n1 = 1;
+		
 		int n2 = 0;
 		int n3 = 0;
 		
